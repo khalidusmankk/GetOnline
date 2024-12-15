@@ -1,0 +1,561 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: block;
+  background-color: rgb(7, 52, 12);
+  height: 150px;
+  line-height: 150px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 15px;
+  margin-left: 50px;
+}
+
+.nav-link:hover {
+  color: yellow;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.nav-link.active {
+  color: #36098a;
+  background-color: whitesmoke;
+  height: 60px;
+  padding: 13px 30px 13px 25px;
+}
+.navbar i {
+  color: whitesmoke;
+}
+
+.navbar i:hover {
+  color: #007bff;
+  background-color: whitesmoke;
+}
+.nav-link:hover i {
+  color: yellow;
+}
+
+.nav-link.active i {
+  color: #120868;
+  background-color: whitesmoke;
+}
+.navbar input {
+  margin-left: 200px;
+  width: 300px;
+  height: 40px;
+}
+
+div.home3rd {
+  float: left;
+  margin-left: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.home3rd {
+  width: 380px;
+  height: auto;
+}
+
+.home3rd img {
+  width: 100%;
+  height: 100%;
+}
+
+.home3rd h2 {
+  color: #120868;
+  margin-top: 10px;
+}
+
+.fall-animation {
+  animation: fallFromTop 2s ease-out;
+}
+
+@keyframes fallFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0.1;
+  }
+  70% {
+    opacity: 0.1;
+  }
+  90% {
+    transform: translateY(0);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.aboutMain {
+  width: 100%;
+  height: 400px;
+}
+.aboutMain img {
+  width: 100%;
+  height: 400px;
+  margin-top: 60px;
+}
+.aboutMain h1 {
+  margin-top: -100px;
+  color: whitesmoke;
+  width: 1000px;
+  margin-left: 10%;
+  font-size: 80px;
+  text-shadow: 5px 1px blueviolet;
+  text-align: center;
+}
+
+.about-container {
+  padding: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.about-header {
+  text-align: center;
+
+  margin-top: 40px;
+}
+.about-header h1 {
+  background-color: green;
+  color: whitesmoke;
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  color: black;
+  margin-bottom: 30px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.about-services,
+.about-mission,
+.about-team,
+.about-cta {
+  margin-bottom: 2rem;
+}
+.about-services h2 {
+  background-color: green;
+  color: whitesmoke;
+  width: 300px;
+}
+.about-services ol li {
+  margin: 15px;
+}
+.about-mission {
+  text-align: justify;
+  height: 600px;
+  border: 2px solid green;
+}
+
+.about-mission h2 {
+  color: white;
+  margin-bottom: 20px;
+  background-image: linear-gradient(90deg, blue, red, yellow, blue, green, red);
+}
+.about-mission h3 {
+  background-color: rgb(7, 81, 7);
+  color: whitesmoke;
+  width: 300px;
+}
+.about-mission p {
+  margin-bottom: 20px;
+}
+.about-mission i {
+  font-size: 500px;
+  float: right;
+  margin-top: 33px;
+  color: gray;
+}
+
+.about-cta h3 {
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  background-image: linear-gradient(90deg, blue, rgb(176, 18, 18), rgb(234, 199, 23), blue, rgb(18, 125, 18), red);
+}
+.about-cta a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-cta a:hover {
+  text-decoration: underline;
+}
+.about-team {
+  width: 50%;
+  float: left;
+  background-color: rgb(237, 222, 203);
+  text-align: justify;
+  padding-left: 5px;
+}
+.about-team h1 {
+  background-color: rgb(96, 56, 65);
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about-myTeam {
+  width: 400px;
+  height: 640px;
+  background-color: rgb(96, 56, 65);
+  color: whitesmoke;
+  padding-left: 20px;
+  padding-top: 60px;
+  margin-left: 65.5%;
+}
+.about-myTeam a {
+  color: whitesmoke;
+}
+.about-myTeam i {
+  background-color: whitesmoke;
+  color: rgb(96, 56, 65);
+  font-size: 15px;
+  border-radius: 50px;
+  border: 15px solid whitesmoke;
+}
+.about-myTeam h2 {
+  padding-bottom: 10px;
+}
+.about-myTeam h3 {
+  padding-top: 5px;
+}
+
+.aboutBoth {
+  border: 5px solid rgb(96, 56, 65);
+  margin-bottom: 20px;
+}
+.contactMain {
+  width: 100%;
+  height: 1200px;
+  margin-top: 60px;
+}
+.contactMain img {
+  width: 100%;
+  height: 400px;
+  margin-top: 90px;
+}
+.contactMain h1 {
+  margin-top: -400px;
+  font-size: 80px;
+  color: whitesmoke;
+  text-shadow: 5px 2px red;
+  margin-left: 150px;
+}
+.contactForm {
+  margin: auto;
+  width: 70%;
+  height: 500px;
+  border: 2px solid red;
+  padding-left: 20px;
+  outline: 40px solid rgb(51, 74, 10);
+  background-color: rgba(211, 211, 211, 0.895);
+  margin-top: 400px;
+}
+.contactForm label {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.contactForm input {
+  width: 400px;
+  height: 30px;
+  text-align: center;
+  border: 1.5px solid black;
+  float: left;
+}
+.contactForm textarea {
+  border: 1.5px solid black;
+}
+.contactForm i {
+  font-size: 390px;
+  float: right;
+
+  margin-top: -150px;
+  padding-right: 5%;
+}
+.contactForm button {
+  width: 120px;
+  height: 60px;
+  border: 5px solid rgb(51, 74, 10);
+  font-size: 20px;
+  cursor: pointer;
+}
+.contactForm button:hover {
+  background-color: gray;
+  text-decoration: underline;
+}
+
+.blog2img h2 {
+  background-color: rgb(0, 98, 111);
+  color: whitesmoke;
+}
+.blog2img {
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.blog2img img {
+  height: 530px;
+  width: 49%;
+  float: right;
+  padding-left: 14px;
+}
+
+.blogmobimg h2 {
+  color: whitesmoke;
+  background-color: black;
+  margin-top: 30px;
+}
+.blogmobimg img {
+  height: 400px;
+  width: 49%;
+  float: right;
+  padding-left: 14px;
+  margin-top: 30px;
+}
+
+.blogsofimg h2 {
+  color: whitesmoke;
+  background-color: rgb(134, 9, 9);
+  margin-top: 30px;
+}
+
+.blogsofimg img {
+  height: 440px;
+  width: 49%;
+  float: right;
+  padding-left: 14px;
+  margin-top: 30px;
+}
+
+.blogsfypimg h2 {
+  color: whitesmoke;
+  background-color: rgb(21, 103, 10);
+  margin-top: 30px;
+}
+.blogsfypimg img {
+  height: 390px;
+  width: 49%;
+  float: right;
+  padding-left: 14px;
+  margin-top: 30px;
+}
+
+.blogssmmimg h2 {
+  color: whitesmoke;
+  background-color: rgb(36, 36, 79);
+  margin-top: 30px;
+}
+
+.blogssmmimg img {
+  height: 220px;
+  width: 49%;
+  float: right;
+  padding-left: 14px;
+  margin-top: 30px;
+}
+
+.blogsseoimg h2 {
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: whitesmoke;
+  background-image: linear-gradient(90deg, blue, red, yellow, blue, green, red);
+  margin-top: 30px;
+}
+
+.blogsseoimg img {
+  height: 500px;
+  width: 49%;
+  float: right;
+  padding-left: 14px;
+  margin-top: 30px;
+}
+.careermain {
+  width: 100%;
+  height: 1100px;
+}
+.careerOne img {
+  width: 100%;
+  height: 400px;
+  margin-top: 130px;
+}
+.careerOne h1 {
+  color: whitesmoke;
+  font-size: 80px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 10px 2px rgb(21, 27, 91);
+  margin-top: -350px;
+  margin-bottom: 300px;
+}
+.careerText img {
+  width: 45%;
+  height: 400px;
+  float: right;
+}
+
+.careerText p {
+  width: 45%;
+  text-align: justify;
+  line-height: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.careerText h3 {
+  margin-top: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.groceryMain {
+  width: 50%;
+  height: 600px;
+  border: 2px solid rgb(134, 9, 9);
+
+  padding: 10px;
+  float: right;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.groceryMain2 {
+  height: 600px;
+  outline: 10px solid rgb(134, 9, 9);
+  padding: 10px;
+  margin: 10px 20px 30px 20px;
+}
+.groceryMain2 p {
+  text-align: justify;
+}
+.groceryMain label {
+  display: inline-block;
+  width: 300px;
+  border: 3px solid yellow;
+  margin-top: 30px;
+  font-size: 27px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.groceryMain select {
+  width: 120px;
+  font-size: 25px;
+  text-align: center;
+  outline: 5px solid rgb(134, 9, 9);
+  margin-top: 30px;
+}
+.groceryPrice span {
+  border: 5px solid rgb(134, 9, 9);
+  font-size: 30px;
+  padding-right: 65px;
+}
+.groceryTotal button {
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(19, 45, 19);
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin-left: 5%;
+  cursor: pointer;
+}
+.modal {
+  width: 400px;
+  height: 200px;
+  display: inline-block;
+  border: 3px solid rgb(134, 9, 9);
+  margin-left: 30%;
+  padding: 10px;
+  margin-top: 30px;
+}
+.modal {
+  background-color: gray;
+}
+.modal h2 {
+  text-align: center;
+  background-color: wheat;
+  margin-top: 30px;
+}
+.modal p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  background-color: wheat;
+}
+.modal button {
+  width: 100px;
+  margin-left: 40%;
+  margin-top: 30px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.footerOne {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: rgb(137, 180, 137);
+  border-radius: 10px;
+  color: whitesmoke;
+  width: 100%;
+  height: 400px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: url("C:\Users\hp\Desktop\ReactViteProject\getONline\public\images\mainimg2.jpg");
+  background-size: cover;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.footerOne h3 {
+  margin-bottom: 20px;
+}
+
+.footerOne div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footerOne i {
+  color: #27ae60;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.footerOne a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.footerOne a:hover {
+  text-decoration: underline;
+}
